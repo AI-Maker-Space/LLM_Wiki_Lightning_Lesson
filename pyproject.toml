@@ -1,0 +1,18 @@
+[project]
+name = "llm-wiki-lightning-lesson"
+version = "0.1.0"
+description = "A schema-driven LLM Wiki: immutable raw/ sources compiled by an LLM into an OKF bundle under wiki/."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40",
+]
+
+[project.optional-dependencies]
+# `uv sync --extra openai` to run the scripts against OpenAI instead of Anthropic.
+openai = ["openai>=1.40"]
+
+[tool.uv]
+# The wiki scripts are run by path (uv run python .agents/skills/llm-wiki/scripts/wiki.py …),
+# not installed as a package, so there is nothing to build.
+package = false
