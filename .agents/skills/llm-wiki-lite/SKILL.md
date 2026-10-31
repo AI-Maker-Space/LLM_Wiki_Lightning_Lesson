@@ -1,6 +1,6 @@
 ---
 name: llm-wiki-lite
-description: Build, update and query a personal LLM Wiki — an OKF v0.2 bundle of source summaries and entity, concept and relationship pages, written as Markdown from immutable raw/ files — by hand, with no scripts or setup. Use whenever the user wants to ingest articles, papers or notes into a wiki, Obsidian vault or knowledge base, prune or re-ingest changed sources, audit the wiki, or ask what their sources say about a topic, even if they don't say "wiki". If the scripted llm-wiki-dci skill is installed and the corpus is large, prefer that instead.
+description: Build, update and query a personal LLM Wiki — an OKF v0.2 bundle of source summaries and entity, concept and relationship pages, written as Markdown from immutable raw/ files — by hand, with no scripts or setup. Use whenever the user wants to ingest articles, papers or notes into a wiki, Obsidian vault or knowledge base, prune or re-ingest changed sources, audit the wiki, or ask what their sources say about a topic, even if they don't say "wiki". If the scripted llm-wiki skill is installed and the corpus is large, prefer that instead.
 compatibility: Needs an agent that can read and write files in the vault. A shell is optional, used only to read the clock and file modification times. No Python, packages or API keys.
 ---
 
@@ -8,7 +8,7 @@ compatibility: Needs an agent that can read and write files in the vault. A shel
 
 You are the whole pipeline. There are no scripts and no state file: you read the raw sources and
 write the wiki pages by hand. The resulting `wiki/` bundle has the same shape as the one the
-scripted `llm-wiki-dci` skill produces, so a vault can move between the two.
+scripted `llm-wiki` skill produces, so a vault can move between the two.
 
 ## Ground rules
 
@@ -117,7 +117,7 @@ For each file:
 
 A missing date prefix is normal and needs no warning. Never rename raw files: the name is the
 source ID, and renaming one later counts as a withdrawal plus a new source. Only when a file's date
-falls through to its modification time, mention it once in your report ("dated by save time: `notes.md`") so the user can add a date to its frontmatter if the order matters.
+falls through to its modification time, mention it once in your report (dated by save time: `notes.md`) so the user can add a date to its frontmatter if the order matters.
 
 ## Workflow 2 — Prune or re-ingest a source
 
@@ -184,7 +184,7 @@ each affected page to match `references/page-templates.md`, preserving its facts
 `sources`. Do not change `generated.at` for a pure reformat: it records the last meaningful content
 change, and source pages rely on it to detect changed raw files. Regenerate `index.md` and log a
 `* **Reformat**: …` entry. If you find yourself reformatting many pages often, suggest the scripted
-`llm-wiki-dci` skill, which automates these rewrites.
+`llm-wiki` skill, which automates these rewrites.
 
 ## Example — an ingest with a promotion
 
@@ -201,8 +201,8 @@ change, and source pages rely on it to detect changed raw files. Regenerate `ind
 > the self-check, then report: "Ingested 2 sources. Created concepts/metricflow and
 > relationships/cube-vs-metricflow. New candidate: Cube (2 mentions)."
 
-## Relationship to llm-wiki-dci
+## Relationship to llm-wiki
 
-This skill trades `llm-wiki-dci`'s scripted orchestration (and its `lint` and `index` commands) for
+This skill trades `llm-wiki`'s scripted orchestration (and its `lint` and `index` commands) for
 zero setup. Both are stateless and both have the LLM write the pages, so the `wiki/` bundle is the
 same, and you can switch between them over the same vault.
