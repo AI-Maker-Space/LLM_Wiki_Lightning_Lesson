@@ -335,7 +335,7 @@ def _lint(root: str) -> list[tuple[str, str]]:
         body = _FENCE_RE.sub("", text)
         for target in _LINK_RE.findall(body):
             tgt = target.split("#", 1)[0].strip()
-            if not tgt or tgt.startswith(("http://", "https://", "mailto:")):
+            if not tgt or tgt.startswith(("https://", "mailto:")):
                 continue
             resolved = os.path.normpath(os.path.join(os.path.dirname(os.path.join(wiki, rel)), tgt))
             if not os.path.exists(resolved):

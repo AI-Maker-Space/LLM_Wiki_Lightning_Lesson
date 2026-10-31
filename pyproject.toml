@@ -16,7 +16,3 @@ openai = ["openai>=1.40"]
 # The wiki scripts are run by path (uv run python .agents/skills/llm-wiki/scripts/wiki.py …),
 # not installed as a package, so there is nothing to build.
 package = false
-
-[tool.pyrefly]
-python_version = "3.13"
-search_path = [".agents/skills/llm-wiki/scripts"]

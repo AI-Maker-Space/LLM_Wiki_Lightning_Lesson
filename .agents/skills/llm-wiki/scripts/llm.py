@@ -24,7 +24,7 @@ class LLMError(RuntimeError):
 
 
 def model_id() -> str:
-    """The model id this run will use, honouring LLM_MODEL / LLM_PROVIDER."""
+    """The model id this run will use, honoring LLM_MODEL / LLM_PROVIDER."""
     provider = os.environ.get("LLM_PROVIDER", "anthropic").lower()
     model = os.environ.get("LLM_MODEL")
     if model:
