@@ -40,7 +40,7 @@ sources:
 
 ## Notable Quotes
 > "<Verbatim quote.>"
-— <Who said it / where in the source>
+> — <Who said it / where in the source>
 
 ## Notes
 - Connects to [<existing concept>](../concepts/<slug>.md) — <reason>
