@@ -11,6 +11,9 @@ back to the article it came from.
 
 ## The idea (Karpathy's split)
 
+The "immutable raw sources vs. LLM-compiled knowledge" framing follows
+[Andrej Karpathy's note](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f).
+
 ```
    raw/  ──────────────▶  the LLM reads & compiles  ──────────────▶  wiki/
   (immutable sources)         (judgment: what's a fact,            (an OKF bundle: one
