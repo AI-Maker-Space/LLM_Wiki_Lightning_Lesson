@@ -43,7 +43,7 @@ type: Entity                                    # REQUIRED, always first
 title: "<Display Name>"
 description: "<One sentence.>"
 tags: ["company"]
-generated: { by: "llm-wiki-dci/<model>", at: 2026-01-01T00:00:00Z }
+generated: { by: "llm-wiki/<model>", at: 2026-01-01T00:00:00Z }
 status: draft                                   # optional; absent means stable
 sources:
   - id: "<source-slug>"                         # footnote key

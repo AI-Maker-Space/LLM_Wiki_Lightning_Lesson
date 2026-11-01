@@ -3,7 +3,7 @@ type: Entity
 title: "SQLAlchemy"
 description: "The Python ORM that most Python data applications use; semantido extends its models with semantic decorators so meaning lives next to the schema."
 tags: ["tool", "python"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one"
     resource: "../sources/the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one.md"

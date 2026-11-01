@@ -3,7 +3,7 @@ type: Source
 title: "The Semantic Layer landscape, what you need to know before choosing one."
 description: "A CDO's procurement guide to six categories of semantic-layer vendors, arguing the real decision is governance vs. flexibility and whether a vendor sells a definition system or a description system."
 tags: ["semantic-layer", "vendors"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/03-semantic-layer-landscape-what-you-need-to-know"
 sources:
   - id: "raw"

@@ -11,7 +11,7 @@ type: Source
 title: "<Article / Paper Title>"
 description: "<One sentence summary of what this source is about.>"
 tags: ["<topic>", "<domain>"]
-generated: { by: "llm-wiki-dci/<model>", at: YYYY-MM-DDTHH:MM:SSZ }
+generated: { by: "llm-wiki-lite/1.0", at: YYYY-MM-DDTHH:MM:SSZ }
 resource: "<canonical URL or DOI>"
 sources:
   - id: "raw"
@@ -60,7 +60,7 @@ type: Entity
 title: "<Entity Display Name>"
 description: "<One sentence: what this entity is and why it matters.>"
 tags: ["<subtype: person|company|project|tool>", "<domain>"]
-generated: { by: "llm-wiki-dci/<model>", at: YYYY-MM-DDTHH:MM:SSZ }
+generated: { by: "llm-wiki-lite/1.0", at: YYYY-MM-DDTHH:MM:SSZ }
 sources:
   - id: "<source-slug>"
     resource: "../sources/<source-slug>.md"
@@ -111,7 +111,7 @@ type: Concept
 title: "<Concept Display Name>"
 description: "<One sentence definition.>"
 tags: ["<domain>", "<technique|pattern|idea>"]
-generated: { by: "llm-wiki-dci/<model>", at: YYYY-MM-DDTHH:MM:SSZ }
+generated: { by: "llm-wiki-lite/1.0", at: YYYY-MM-DDTHH:MM:SSZ }
 sources:
   - id: "<source-slug>"
     resource: "../sources/<source-slug>.md"
@@ -164,7 +164,7 @@ description: "<One sentence stating what the relationship is and why it matters.
 tags: ["<domain>"]
 relation: compares | builds-on | uses | competes-with | part-of | acquires | supersedes | other
 between: ["<id-a>", "<id-b>"]
-generated: { by: "llm-wiki-dci/<model>", at: YYYY-MM-DDTHH:MM:SSZ }
+generated: { by: "llm-wiki-lite/1.0", at: YYYY-MM-DDTHH:MM:SSZ }
 sources:
   - id: "<source-slug>"
     resource: "../sources/<source-slug>.md"

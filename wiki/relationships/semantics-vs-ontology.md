@@ -5,7 +5,7 @@ description: "Semantics (what something means) must precede ontology (how that k
 tags: ["semantics", "ontology"]
 relation: compares
 between: ["concepts/semantics", "concepts/ontology"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "what-is-a-semantic-layer-after-all"
     resource: "../sources/what-is-a-semantic-layer-after-all.md"

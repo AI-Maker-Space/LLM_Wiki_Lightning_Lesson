@@ -3,7 +3,7 @@ type: Source
 title: "Semantics where the code lives. Interchange where the stack lives. Semantido v0.3.0 release."
 description: "semantido v0.3.0 ships a first-class time-dimension model and a three-format exporter (OSI YAML, Markdown, JSON), arguing the curation a format carries — not the format — is the product."
 tags: ["semantido", "semantic-layer", "release"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/04-semantics-where-the-code-lives-interchange-where-the-stack-lives"
 sources:
   - id: "raw"

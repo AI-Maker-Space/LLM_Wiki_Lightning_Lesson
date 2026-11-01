@@ -3,7 +3,7 @@ type: Source
 title: "Two agents walk into an mcp: the Concept Registry, an ontology-grade rigor at SQLAlchemy-decorator cost. Semantido v0.4.1 release."
 description: "semantido v0.4.1 adds a concept registry — three families of typed edges that let two agents who never shared a schema disagree safely about what a word means, with no OWL and no reasoner."
 tags: ["semantido", "ontology", "release"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/05-concept-registry-a-ontology-grade-rigor-at-sqlalchemy-decorator-cost"
 sources:
   - id: "raw"

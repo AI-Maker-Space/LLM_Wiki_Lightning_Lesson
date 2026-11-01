@@ -3,7 +3,7 @@ type: Concept
 title: "Ontology"
 description: "The organisation and classification of knowledge once its meaning is known; the series asks how little of it is needed, and semantido's concept registry is a minimal, reasoner-free answer."
 tags: ["ontology", "semantics"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "what-is-a-semantic-layer-after-all"
     resource: "../sources/what-is-a-semantic-layer-after-all.md"

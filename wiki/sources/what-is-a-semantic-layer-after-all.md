@@ -3,7 +3,7 @@ type: Source
 title: "What is a semantic layer after all?"
 description: "Disambiguates the overloaded term 'semantic layer' through Dave McComb's work, arguing that meaning must precede ontology and that LLMs need an explicit, LLM-ready semantic layer for tabular data."
 tags: ["semantic-layer", "semantics"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/02-what-is-a-semantic-layer-after-all"
 sources:
   - id: "raw"

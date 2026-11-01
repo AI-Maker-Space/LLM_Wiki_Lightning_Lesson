@@ -3,7 +3,7 @@ type: Entity
 title: "MCP (Model Context Protocol)"
 description: "The protocol for exposing tools and context to AI agents; semantido serializes its semantic layer to MCP so agents query governed schema meaning at plan time."
 tags: ["tool", "agentic"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one"
     resource: "../sources/the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one.md"

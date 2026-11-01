@@ -3,7 +3,7 @@ type: Concept
 title: "Semantic layer"
 description: "A layer of curated, governed metadata that translates between the real-world meaning of business data and an LLM's statistical 'understanding', raising retrieval and query accuracy."
 tags: ["semantic-layer", "genai"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "where-it-all-started-why-building-a-semantic-layer-for-genai"
     resource: "../sources/where-it-all-started-why-building-a-semantic-layer-for-genai.md"

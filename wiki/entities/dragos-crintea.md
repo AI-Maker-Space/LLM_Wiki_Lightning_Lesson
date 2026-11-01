@@ -3,7 +3,7 @@ type: Entity
 title: "Dragos Crintea"
 description: "Principal/solution architect and data engineer who built semantido and writes the semantic-layer-for-GenAI article series this wiki is compiled from."
 tags: ["person", "semantic-layer"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "where-it-all-started-why-building-a-semantic-layer-for-genai"
     resource: "../sources/where-it-all-started-why-building-a-semantic-layer-for-genai.md"

@@ -3,7 +3,7 @@ type: Entity
 title: "Hikari Labs"
 description: "The company behind semantido; it hosts the open-source repository and runs a semantic-layer advisory workshop for data and AI leadership teams."
 tags: ["company", "semantic-layer"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one"
     resource: "../sources/the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one.md"

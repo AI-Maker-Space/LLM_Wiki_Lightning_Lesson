@@ -3,7 +3,7 @@ type: Concept
 title: "Hallucination"
 description: "An LLM producing plausible but wrong output; the series frames it as semantic misinterpretation from missing knowledge, reducible but never eliminable, and mitigated by curated semantics."
 tags: ["genai", "reliability"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "where-it-all-started-why-building-a-semantic-layer-for-genai"
     resource: "../sources/where-it-all-started-why-building-a-semantic-layer-for-genai.md"

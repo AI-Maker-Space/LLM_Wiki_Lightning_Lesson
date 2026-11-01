@@ -3,7 +3,7 @@ type: Concept
 title: "Text2SQL"
 description: "Generating SQL from a natural-language prompt with an LLM; brittle on real schemas without a semantic layer, and reframed as a capability question rather than a syntax one."
 tags: ["text2sql", "genai"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "where-it-all-started-why-building-a-semantic-layer-for-genai"
     resource: "../sources/where-it-all-started-why-building-a-semantic-layer-for-genai.md"

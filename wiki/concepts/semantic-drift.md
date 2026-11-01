@@ -3,7 +3,7 @@ type: Concept
 title: "Semantic drift"
 description: "When declared meaning diverges from the schema and data it describes; the series' recurring enemy, which semantido fights by authoring meaning next to code and enforcing it in CI."
 tags: ["semantic-layer", "governance"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 sources:
   - id: "the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one"
     resource: "../sources/the-semantic-layer-landscape-what-you-need-to-know-before-choosing-one.md"

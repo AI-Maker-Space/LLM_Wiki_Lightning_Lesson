@@ -3,7 +3,7 @@ type: Source
 title: "The semantic layer can now fail your build - semantido v0.5 release."
 description: "semantido v0.5 turns the layer from a descriptor into an enforcer, adding grain, a standalone groundings document, and a sqlglot-based linter whose ERROR findings fail CI."
 tags: ["semantido", "semantic-layer", "release"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/06-the-semantic-layer-can-now-fail-your-build"
 sources:
   - id: "raw"

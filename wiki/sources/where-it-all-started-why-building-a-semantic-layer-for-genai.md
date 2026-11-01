@@ -3,7 +3,7 @@ type: Source
 title: "Where it all started. Why Building a semantic layer for GenAI."
 description: "A first-person account of how brittle Text2SQL led the author to build semantido, an open-source semantic layer for the GenAI era."
 tags: ["genai", "semantic-layer"]
-generated: { by: "llm-wiki-dci/claude-opus-4-8", at: 2026-10-24T00:00:00Z }
+generated: { by: "llm-wiki-lite/1.0", at: 2026-10-24T00:00:00Z }
 resource: "https://dragoscrintea.me/articles/01-where-it-all-started-why-building-a-semantic-layer-for-genai"
 sources:
   - id: "raw"
