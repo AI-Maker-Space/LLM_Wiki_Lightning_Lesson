@@ -58,7 +58,7 @@ def _generated() -> str:
         model = llm.model_id()
     except Exception:
         model = "unknown"
-    return f'{{ by: "llm-wiki-dci/{model}", at: {util.now_iso()} }}'
+    return f'{{ by: "llm-wiki-lite/{model}", at: {util.now_iso()} }}'
 
 
 def _raw_meta(content: str, date: str) -> dict:
