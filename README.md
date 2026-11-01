@@ -99,6 +99,10 @@ never committed:
 cp .env.example .env            # then edit .env and paste your ANTHROPIC_API_KEY
 ```
 
+**Prefer OpenAI?** The scripted pipeline is provider-agnostic — run `uv sync --extra openai`, then
+set `LLM_PROVIDER=openai`, `OPENAI_API_KEY` and `LLM_MODEL` in `.env` (see the comments in
+`.env.example`). The DCI notebook stays Anthropic-only.
+
 To launch Claude Code with that key loaded, use the helper script (it sources `.env`, exports the
 key, then starts `claude`; extra args pass through):
 
