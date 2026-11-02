@@ -1,5 +1,8 @@
 # Log
 
+## 2026-11-02
+- **Query**: "using my wiki how does a semantic layer work" — answered from `concepts/semantic-layer`, `relationships/semantic-layer-improves-text2sql`, with `concepts/text2sql` and `entities/semantido` as supporting references.
+
 ## 2026-11-01
 - **Reformat**: corrected `generated.by` on all 22 pages from `llm-wiki-dci/claude-opus-4-8` to `llm-wiki-lite/1.0` — `dci` (the notebook reader) is never a page producer; this bundle was built by the `llm-wiki-lite` workflow. `generated.at` left unchanged (pure reformat). Also aligned the source: `SCHEMA.md` example and `wiki.py` `_generated()` now stamp `llm-wiki/<model>` for the scripted skill.
 
